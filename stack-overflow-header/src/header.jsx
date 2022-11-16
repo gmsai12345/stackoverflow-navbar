@@ -6,7 +6,7 @@ import InboxIcon from "@mui/icons-material/Inbox";
 import HelpIcon from "@mui/icons-material/Help";
 import MenuIcon from "@mui/icons-material/Menu";
 import header from "./header.css";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 //import Avatar from '../../Avatar';
 //import Button from  '../../Avatar';
 //var User = null;
@@ -15,20 +15,20 @@ export default function Header1() {
   return (
     <Navbar className="main-nav">
       <div className="navbar">
-        <Link to="/" className="nav-item nav-logo">
+        <span className="nav-item nav-logo">
           <img
             src="https://raw.githubusercontent.com/Manoj-Athi/Stack-overflow/main/client/src/assets/logo.png"
             alt="logo"/>
-        </Link>
-        <Link to="/" className="nav-item nav-btn">
+        </span>
+        <span className="nav-item nav-btn">
           About
-        </Link>
-        <Link to="/" className="nav-item nav-btn">
+        </span>
+        <span className="nav-item nav-btn">
           Products
-        </Link>
-        <Link to="/" className="nav-item nav-btn">
+        </span>
+        <span className="nav-item nav-btn">
           For Teams
-        </Link>
+        </span>
 
         <input type="text" placeholder="Search..." />
         <img
